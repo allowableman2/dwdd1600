@@ -64,7 +64,7 @@ main p {
 p {
   margin: 10px 0;
   padding: 5px;
-  border: 3px solid red;
+  border: 3px solid blue;
   text-indent: 10px;
 }
 main address {
@@ -78,7 +78,7 @@ main address {
 address {
   margin: 10px 0;
   padding: 5px;
-  border: 3px solid red;
+  border: 3px solid blue;
   text-indent: 10px;
 }
 Main a {
