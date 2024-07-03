@@ -61,8 +61,12 @@ main p {
     color: #496AFC;
     margin: 0 0 .3rem 0;
 }
-
-
+p {
+  margin: 10px 0;
+  padding: 5px;
+  border: 3px solid red;
+  text-indent: 10px;
+}
 main address {
     font-style: normal;
     background-color: #A7D0FA;
@@ -71,7 +75,12 @@ main address {
     border: 1px solid #6249FC;
     border-radius: 5px;
 }
-
+address {
+  margin: 10px 0;
+  padding: 5px;
+  border: 3px solid red;
+  text-indent: 10px;
+}
 Main a {
     color: #024873;
 }
