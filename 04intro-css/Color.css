@@ -43,7 +43,7 @@ nav li.active a {
     color: #f2b705;
 }
 nav a:hover {
-    color: white;
+    background-color: white;
 }
 
 /* Stuff for main*/
