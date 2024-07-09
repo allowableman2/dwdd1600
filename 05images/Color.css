@@ -104,9 +104,9 @@ div.gallery figure {
 }
 
 div.gallery figcaption {
-    text-align: center;
+    text-align: left;
     font-size: .8rem;
-    color: #b64e11
+    color: #024873
 }
 /* footer stuff here */
 footer {
