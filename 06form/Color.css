@@ -47,6 +47,15 @@ nav a:hover {
 }
 
 /* Stuff for main*/
+fieldset {
+  background-color: #B0C7EF;
+}
+
+legend {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+}
 main{
     padding: 1rem 2vw;
 }
@@ -78,15 +87,7 @@ Main a {
 Main a:hover {
     color: rgb(167, 208, 250);
 }
-fieldset {
-  background-color: #eeeeee;
-}
 
-legend {
-  background-color: blue;
-  color: white;
-  padding: 5px 10px;
-}
 /* footer stuff here */
 footer {
     background-color: #eaeaea;
