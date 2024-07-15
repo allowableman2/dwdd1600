@@ -61,7 +61,7 @@ legend{
 label { 
     margin: .5rem;
 }
-label{ 
+label, select, [type=text]{ 
     display: block;
     
 }
