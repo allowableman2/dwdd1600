@@ -48,11 +48,13 @@ nav a:hover {
 
 /* Stuff for main*/
 fieldset {
+text-align: left;
   background-color: #B0C7EF;
 }
 
-legend {
-     float: left;
+legend{
+text-align: left;
+    float: left;
   background-color: blue;
   color: white;
   padding: 5px 10px;
