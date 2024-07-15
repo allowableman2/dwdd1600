@@ -123,7 +123,7 @@ Main a:hover {
 }
 
 .myForm :required {
-    background-color: rgba(156, 51, 53, 0.1);
+    background-color: #34e1eb;
 }
 
 .myForm [type=text]:valid, .myForm [type=tel]:valid {
