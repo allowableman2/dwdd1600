@@ -58,6 +58,11 @@ legend{
   color: white;
   padding: 5px 10px;
 }
+.myform label, .myform select, .myform [type=text]{ 
+    display: block;
+    text-align: left;
+    
+}
 
 main{
     padding: 1rem 2vw;
