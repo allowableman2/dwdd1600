@@ -63,6 +63,7 @@ legend{
 }
 .myform label, .myform select, .myform [type=text]{ 
     display: block;
+    float: left
     
 }
 main{
