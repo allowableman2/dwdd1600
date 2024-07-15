@@ -114,7 +114,7 @@ Main a:hover {
     padding: .3rem;
     width: 250px;
     Border-radius: .3rem;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'light', sans-serif;
     font-weight: 200;
 }
 
@@ -140,7 +140,7 @@ Main a:hover {
 }
 /* footer stuff here */
 footer {
-    background-color: #496AFC;
+    background-color: #49f3fc;
     text-align: center;
     color: #024873;
     padding: 1rem 0;
