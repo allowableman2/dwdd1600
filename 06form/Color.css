@@ -58,7 +58,12 @@ legend{
   color: white;
   padding: 5px 10px;
 }
-
+label { 
+    margin: .5rem;
+}
+label{ 
+    display: block;
+    
 }
 main{
     padding: 1rem 2vw;
