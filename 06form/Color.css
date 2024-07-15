@@ -53,7 +53,7 @@ float: left;
 }
 
 legend{
- float:left
+ float:left;
   background-color: blue;
   color: white;
   padding: 5px 10px;
@@ -63,7 +63,7 @@ legend{
 }
 .myform label, .myform select, .myform [type=text]{ 
     display: block;
-    float: left
+    float: left;
     
 }
 main{
