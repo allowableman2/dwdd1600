@@ -58,10 +58,10 @@ legend{
   color: white;
   padding: 5px 10px;
 }
-label { 
+.myform label { 
     margin: .5rem;
 }
-label, select, [type=text]{ 
+.myform label, .myform select, .myform [type=text]{ 
     display: block;
     
 }
