@@ -48,24 +48,17 @@ nav a:hover {
 
 /* Stuff for main*/
 fieldset {
-float: left;
+
   background-color: #B0C7EF;
 }
 
 legend{
- ;
+ 
   background-color: blue;
   color: white;
   padding: 5px 10px;
 }
-.myform label { 
-    margin: .5rem;
-}
-.myform label, .myform select, .myform [type=text]{ 
-    display: block;
-    align-items:left;
-    
-}
+
 main{
     padding: 1rem 2vw;
 }
