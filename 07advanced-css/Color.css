@@ -1,6 +1,5 @@
-* {box-sizing: border-box;}
 body {
-    font-family: 'Calibri'; Sans-serif
+    font-family: "Calibri", Sans-serif;
     font-size: 16px;
     font-weight: 300;
     margin: 0;
@@ -50,7 +49,7 @@ header p {
    
     nav {
     border-top: solid 1px #E0E6E6;
-
+    }
 nav {
     background-color: #49DBFC; 
 }
@@ -75,7 +74,7 @@ nav li.active a {
 nav a:hover {
     background-color: white;
 }
-
+    }
 /* Stuff for main*/
 main{
     padding: 1rem 2vw;
@@ -237,4 +236,4 @@ header, nav, main, footer {
     max-width: 64rem;
     margin: 0 auto;
 }
-
+* {box-sizing: border-box;}
