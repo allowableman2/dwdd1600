@@ -8,7 +8,7 @@ body {
 
 header {
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,214,220,0.6935106806394433) 51%, rgba(0,212,255,1) 100%); 
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(#c6eb34) 51%, rgba(0,212,255,1) 100%); 
     padding: 1rem 2vw;
     display: flex;
     align-items: flex-end
