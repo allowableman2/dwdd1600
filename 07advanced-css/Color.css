@@ -89,3 +89,7 @@ footer {
 footer a {
     color: #496AFC;
 }
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}
