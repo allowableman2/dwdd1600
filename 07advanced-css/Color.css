@@ -108,6 +108,25 @@ div.gallery figcaption {
     font-size: .8rem;
     color: #024873
 }
+div.gallery section {
+    flex-basis: 50%;
+    margin: 1rem 0;
+    
+}
+div.gallery span {
+    display: block;
+    text-align: center; 
+    font-weight: 700;
+    color: #895772;
+}
+div.gallery img {
+    width: 98%;
+    height: auto;
+}
+
+div.gallery img:hover {
+    box-shadow: 0px 0px 10px black;
+}
 /* footer stuff here */
 footer {
     background-color: #eaeaea;
@@ -118,4 +137,8 @@ footer {
 }
 footer a {
     color: #496AFC;
+}
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
 }
