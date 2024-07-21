@@ -1,11 +1,11 @@
 body {
-    font-family: 'Light', sans-serif;
+    font-family: 'Calibri'; Sans-serif
     font-size: 16px;
     font-weight: 300;
     margin: 0;
 }
 
-/* Header stuff here */
+
 header {
     background-color: #A7D0FA;
     padding: 1rem 2vw;
@@ -16,11 +16,11 @@ header h1 {
 }
 header p {
         margin: 0;
-        color: #49a3fc;
+        color: #049FCE3;
         letter-spacing: 0.5px;
 }
 
-/* nav stuff here */
+
 nav {
     background-color: #49DBFC; 
 }
@@ -43,22 +43,10 @@ nav li.active a {
     color: #f2b705;
 }
 nav a:hover {
-    color: white;
+    background-color: white;
 }
 
 /* Stuff for main*/
-fieldset {
-
-  background-color: #B0C7EF;
-}
-
-legend{
-  display: block;
-    text-align: left;
-  background-color: blue;
-  color: white;
-  padding: 5px 10px;
-}
 main{
     padding: 1rem 2vw;
 }
@@ -73,8 +61,12 @@ main p {
     color: #496AFC;
     margin: 0 0 .3rem 0;
 }
-
-
+p {
+  margin: 10px 0;
+  padding: 5px;
+  border: 3px solid blue;
+  text-indent: 10px;
+}
 main address {
     font-style: normal;
     background-color: #A7D0FA;
@@ -83,7 +75,12 @@ main address {
     border: 1px solid #6249FC;
     border-radius: 5px;
 }
-
+address {
+  margin: 5px 0;
+  padding: 5px;
+  border: 3px solid blue;
+  text-indent: 10px;
+}
 Main a {
     color: #024873;
 }
@@ -168,11 +165,14 @@ div.gallery figcaption {
     color: black;
     margin: 1rem 0 0 1vw;
 }
-/* footer stuff here */
+
 footer {
-    background-color: #49f3fc;
+    background-color: #eaeaea;
     text-align: center;
     color: #024873;
     padding: 1rem 0;
     font-size: .8rem;
+}
+footer a {
+    color: #496AFC;
 }
