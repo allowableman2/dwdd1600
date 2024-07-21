@@ -9,10 +9,15 @@ body {
 header {
     background-color: #A7D0FA;
     padding: 1rem 2vw;
+    display: flex
+    align-items: flex-end
 }
 header h1 {
         margin: 0;
         color: #49A3FC;
+}
+header div {
+    padding-left: 1vw;
 }
 header p {
         margin: 0;
