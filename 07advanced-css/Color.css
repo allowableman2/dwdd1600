@@ -90,6 +90,36 @@ Main a {
 Main a:hover {
     color: rgb(167, 208, 250);
 }
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: left;
+    font-size: .8rem;
+    color: #024873
+}
 .myForm fieldset {
     border: 1px solid #43a0b6;
     border-radius: 3px;
