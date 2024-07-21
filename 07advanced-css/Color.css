@@ -19,7 +19,36 @@ header p {
         color: #049FCE3;
         letter-spacing: 0.5px;
 }
+@media only screen and (max-width: 600px) {
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+    }
+    nav a {
+        display: block;
+        padding: .8rem;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: solid 1px #aaa;
+        color: #8c501b;
+    }
+    
+    nav .active a {
+        background-color: #8c501b;
+        background-image: linear-gradient(to bottom, #8c501b, #653a19);
+        color: white;
+    }
+} /* end of the media query */
 
+
+/* Wide screens */
+@media only screen and (min-width: 601px) {
+   
+    nav {
+    border-top: solid 1px #E0E6E6;
 
 nav {
     background-color: #49DBFC; 
