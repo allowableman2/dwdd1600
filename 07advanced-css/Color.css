@@ -9,7 +9,7 @@ body {
 header {
     background-color: #A7D0FA;
     padding: 1rem 2vw;
-    display: flex
+    display: flex;
     align-items: flex-end
 }
 header h1 {
