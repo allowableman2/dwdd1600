@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title> Budget Vacations </title>
+      
+        <meta name="author" content="Tim Grogan">
+      <link rel="stylesheet" type="text/css" href="Color.css">
+    
+    </head>
+    <body>
+          <header>
+       
+        <div>
+        <h1>Budget Vacations</h1>
+        
+        </div>
+        </header>
+        <!-- Start of page navigation -->
+        <nav>
+        <ul> 
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Gallery.html">Destinations</a></li>
+            <li><a href="Packages.html">Packages</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            
+            </ul>
+        </nav>
+        <main>
+        <h1>Contact</h1>
+        <form method="get" class="myForm" action="thanks.html">
+        <fieldset>
+        <legend>Sign In</legend>
+        <label>First Name*<input type="text" name="fname" required></label>
+        <label>Last Name*<input type="text" name="lname" required></label>
+        <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+        <label>Email*<input type="text" name="Email" required></label>
+        </fieldset>
+            
+            
+            
+        <fieldset>
+    <legend>Please select your preferred contact method:</legend>
+    <div>
+      
+
+      <input type="radio" id="contactChoice2" name="contact" value="phone" >
+      <label for="contactChoice2">Phone</label>
+
+      <input type="radio" id="contactChoice3" name="contact" value="mail" >
+      <label for="contactChoice3">Snail Mail</label>
+        
+        <input type="radio" id="contactChoice1" name="contact" value="email" >
+      <label for="contactChoice1">Email</label>
+    </div>
+         <label> Select Email
+            <select name="Email">
+            <option value="none">Select</option>
+            <option value="Gmail">Gmail</option>
+            <option value="Yahoo">Yahoo</option>
+            <option value="Outlook">Outlook </option>
+            </select>
+            </label>   
+  </fieldset>
+            
+            
+         <label>Feedback
+            <textarea name="comments" placeholder="Say something"></textarea>
+            </label>
+            
+            
+        <input type="submit" value="Submit">
+        
+        </form>
+            
+    </main>
+   
+        
+        
+        <footer>
+        <p>&copy;2024 &bull; Tim Grogan &bull; <a href="mailto:allowablemen@gmail.com">Email Us</a>
+        Toll-free: <a href="tel:8662726272">1-435-362-7685</a></p>
+    </footer>
+         </body>
+    </html>
