@@ -256,7 +256,7 @@ table, th, td {
     background-color: rgba(30, 51, 180, 0.1);
 }
 
-.myForm [type=submit] {
+.button {
     background-color: #4384b6;
     border: none;
     padding: 1rem 2rem;
